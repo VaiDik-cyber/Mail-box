@@ -37,7 +37,7 @@ const Login = () => {
       try {
         setLoading(true);
         let res = await axios.post(
-          "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyB02lkuFzq3FvfakkGwF66p3OBEJaqUC4g",
+          "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA6_PGSJUmmv-dHGaxBfBKl_CaAhhF3tl8",
           obj
         );
         dispatch(
